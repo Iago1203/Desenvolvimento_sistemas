@@ -8,7 +8,8 @@ public class semana {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("Escolha um numero de 1 a 7: ");
-		int opcao = 6;
+		int  opcao = Integer.parseInt(leia.nextLine());;
+	
 		
 		switch (opcao) {
 		case 1:
@@ -37,6 +38,7 @@ public class semana {
 		case 7:
 			System.out.println("Sabado");
 			break;
+	
 			default: 
 				System.out.println("Opção Invalida");
 		} 
